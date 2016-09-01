@@ -92,7 +92,7 @@
                                 <frame key="frameInset" minX="-2" minY="81" width="375" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <nil key="textColor"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <fontDescription key="fontDescription" name="Chalkduster" family="Chalkduster" pointSize="16"/>
                                 <textInputTraits key="textInputTraits" returnKeyType="done" enablesReturnKeyAutomatically="YES"/>
                             </textField>
                             <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="strawberry.png" translatesAutoresizingMaskIntoConstraints="NO" id="SIf-fK-FHT">
@@ -261,9 +261,10 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ByB-iT-YAi">
-                                <frame key="frameInset" minX="-1" minY="554" width="374.99999999999955" height="69.000000000000114"/>
+                                <frame key="frameInset" minX="-1" minY="556" width="374.99999999999955" height="69.000000000000114"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <fontDescription key="fontDescription" name="Chalkduster" family="Chalkduster" pointSize="16"/>
                                 <state key="normal" title="Save List"/>
                                 <connections>
                                     <action selector="saveButtonPressed:" destination="nEx-En-dux" eventType="touchUpInside" id="zsY-K2-oHQ"/>
@@ -280,9 +281,13 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="h6n-9X-Mi6">
-                                <frame key="frameInset" minX="-2" minY="617" width="375" height="30"/>
+                                <frame key="frameInset" minY="617" width="375" height="50"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="My To-Do Lists"/>
+                                <color key="backgroundColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                                <fontDescription key="fontDescription" name="Chalkduster" family="Chalkduster" pointSize="16"/>
+                                <state key="normal" title="My To-Do Lists">
+                                    <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                </state>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="SRs-Ju-cqz">
                                 <frame key="frameInset" minX="273" minY="358" width="75" height="75"/>
@@ -357,6 +362,10 @@
                                 <frame key="frameInset" minY="1" width="375" height="667"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Thought_Bubble_Comics.png" translatesAutoresizingMaskIntoConstraints="NO" id="zS8-Bs-rrC">
+                                <frame key="frameInset" minX="129" minY="425" width="230" height="130"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
                             <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Thought_Bubble_Comics.png" translatesAutoresizingMaskIntoConstraints="NO" id="wYs-RQ-xMT">
                                 <frame key="frameInset" minY="316" width="207" height="116"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -366,7 +375,7 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
                             <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Thought_Bubble_Comics.png" translatesAutoresizingMaskIntoConstraints="NO" id="SRX-CT-LVW">
-                                <frame key="frameInset" minX="20" minY="100" width="207" height="116"/>
+                                <frame key="frameInset" minX="10" minY="100" width="217" height="128"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="H9v-C8-bFU">
@@ -377,9 +386,10 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="dCS-cj-PzZ">
-                                <frame key="frameInset" minX="93" minY="126" width="85" height="30"/>
+                                <frame key="frameInset" minX="74" minY="105" width="124" height="84"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                <fontDescription key="fontDescription" name="Chalkduster" family="Chalkduster" pointSize="14"/>
                                 <state key="normal" title="Groceries">
                                     <color key="titleShadowColor" red="0.20869391030000001" green="0.20869391030000001" blue="0.20869391030000001" alpha="1" colorSpace="calibratedRGB"/>
                                 </state>
@@ -390,35 +400,38 @@
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="right" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="zHv-dV-h36">
                                 <frame key="frameInset" minY="587" width="375" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="Go to My TO-DO Lists --&gt;"/>
+                                <fontDescription key="fontDescription" name="Chalkduster" family="Chalkduster" pointSize="16"/>
+                                <state key="normal" title="Go to My TO-DO Lists -----&gt;  "/>
                                 <connections>
                                     <segue destination="ASb-w9-K3z" kind="show" id="99D-uN-0ew"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="oT1-au-Al8">
-                                <frame key="frameInset" minX="76" minY="345" width="85" height="30"/>
+                                <frame key="frameInset" minX="54" minY="317" width="127" height="82"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
-                                <state key="normal" title="Bills">
+                                <fontDescription key="fontDescription" name="Chalkduster" family="Chalkduster" pointSize="14"/>
+                                <state key="normal" title="Activites">
                                     <color key="titleShadowColor" red="0.20869391030000001" green="0.20869391030000001" blue="0.20869391030000001" alpha="1" colorSpace="calibratedRGB"/>
                                 </state>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="LyI-02-eQG">
-                                <frame key="frameInset" minX="267" minY="221" width="85" height="30"/>
+                                <frame key="frameInset" minX="243" minY="196" width="124" height="76"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                <fontDescription key="fontDescription" name="Chalkduster" family="Chalkduster" pointSize="14"/>
                                 <state key="normal" title="Housework">
                                     <color key="titleShadowColor" red="0.20869391030000001" green="0.20869391030000001" blue="0.20869391030000001" alpha="1" colorSpace="calibratedRGB"/>
                                 </state>
+                                <connections>
+                                    <segue destination="yd7-aL-8UP" kind="show" id="e09-nG-t0A"/>
+                                </connections>
                             </button>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Thought_Bubble_Comics.png" translatesAutoresizingMaskIntoConstraints="NO" id="zS8-Bs-rrC">
-                                <frame key="frameInset" minX="152" minY="425" width="207" height="116"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                            </imageView>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="1AU-Xu-6Uj">
-                                <frame key="frameInset" minX="228" minY="452" width="85" height="30"/>
+                                <frame key="frameInset" minX="192" minY="436" width="135" height="74"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                <fontDescription key="fontDescription" name="Chalkduster" family="Chalkduster" pointSize="14"/>
                                 <state key="normal" title="other stuff">
                                     <color key="titleShadowColor" red="0.20869391030000001" green="0.20869391030000001" blue="0.20869391030000001" alpha="1" colorSpace="calibratedRGB"/>
                                 </state>
@@ -434,12 +447,12 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="lvl-s2-b4O" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1346" y="-252"/>
+            <point key="canvasLocation" x="1344.8" y="-252.32383808095955"/>
         </scene>
-        <!--View Controller-->
+        <!--House Work View Controller-->
         <scene sceneID="nri-te-Pqi">
             <objects>
-                <viewController id="yd7-aL-8UP" sceneMemberID="viewController">
+                <viewController id="yd7-aL-8UP" customClass="HouseWorkViewController" customModule="To_Do_List" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="Fq7-a7-tUN"/>
                         <viewControllerLayoutGuide type="bottom" id="tvv-GF-5kY"/>
@@ -449,10 +462,14 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="xPI-UY-QGL">
-                                <frame key="frameInset" minX="1" minY="523" width="374.99999999999955" height="69.000000000000114"/>
+                                <frame key="frameInset" minX="1" minY="543" width="374.99999999999955" height="69.000000000000114"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <fontDescription key="fontDescription" name="Chalkduster" family="Chalkduster" pointSize="16"/>
                                 <state key="normal" title="Save List"/>
+                                <connections>
+                                    <action selector="saveButtonPressed:" destination="yd7-aL-8UP" eventType="touchUpInside" id="ML8-MQ-IZJ"/>
+                                </connections>
                             </button>
                             <textField clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Type To-Do List here" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="JmH-I4-lrV">
                                 <frame key="frameInset" minY="75" width="375" height="30"/>
@@ -461,11 +478,86 @@
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits" returnKeyType="done" enablesReturnKeyAutomatically="YES"/>
                             </textField>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="VOe-X8-eUS">
-                                <frame key="frameInset" minY="586" width="375" height="30"/>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="electric.png" translatesAutoresizingMaskIntoConstraints="NO" id="FZS-iA-Elh">
+                                <frame key="frameInset" minX="278" minY="126" width="75" height="75"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="My To-Do Lists"/>
-                            </button>
+                                <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="gas_bill.png" translatesAutoresizingMaskIntoConstraints="NO" id="Kxi-oR-Jp4">
+                                <frame key="frameInset" minX="27" minY="209" width="75" height="75"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="healthinsurance.png" translatesAutoresizingMaskIntoConstraints="NO" id="f8G-7C-y3t">
+                                <frame key="frameInset" minX="110" minY="209" width="75" height="75"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="homepayment.png" translatesAutoresizingMaskIntoConstraints="NO" id="KTQ-uM-Pfi">
+                                <frame key="frameInset" minX="193" minY="209" width="75" height="75"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="internet.png" translatesAutoresizingMaskIntoConstraints="NO" id="FoE-jp-9Yh">
+                                <frame key="frameInset" minX="276" minY="209" width="75" height="75"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="lawnmower.png" translatesAutoresizingMaskIntoConstraints="NO" id="fb2-Hy-uhw">
+                                <frame key="frameInset" minX="27" minY="292" width="75" height="75"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="money.png" translatesAutoresizingMaskIntoConstraints="NO" id="igD-yF-UoO">
+                                <frame key="frameInset" minX="110" minY="296" width="75" height="75"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="money_transfer.png" translatesAutoresizingMaskIntoConstraints="NO" id="fZg-Vs-rhj">
+                                <frame key="frameInset" minX="193" minY="296" width="75" height="75"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="paint.png" translatesAutoresizingMaskIntoConstraints="NO" id="cAs-gY-yzh">
+                                <frame key="frameInset" minX="276" minY="296" width="75" height="75"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="phonebill.png" translatesAutoresizingMaskIntoConstraints="NO" id="VDh-dD-Dwx">
+                                <frame key="frameInset" minX="27" minY="379" width="75" height="75"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="satellite.png" translatesAutoresizingMaskIntoConstraints="NO" id="5hE-EN-U85">
+                                <frame key="frameInset" minX="110" minY="383" width="75" height="75"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="vacumm.png" translatesAutoresizingMaskIntoConstraints="NO" id="LUP-fV-YvN">
+                                <frame key="frameInset" minX="193" minY="383" width="75" height="75"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="washdishes.png" translatesAutoresizingMaskIntoConstraints="NO" id="c9d-WL-aR2">
+                                <frame key="frameInset" minX="276" minY="383" width="75" height="75"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="car_payment.png" translatesAutoresizingMaskIntoConstraints="NO" id="JKo-8M-bTL">
+                                <frame key="frameInset" minX="108" minY="126" width="75" height="75"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="callperson.png" translatesAutoresizingMaskIntoConstraints="NO" id="TUz-HB-8sW">
+                                <frame key="frameInset" minX="26" minY="126" width="75" height="75"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="dog_walk.png" translatesAutoresizingMaskIntoConstraints="NO" id="bL7-Ay-Zhp">
+                                <frame key="frameInset" minX="192" minY="126" width="75" height="75"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            </imageView>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="aq9-aS-FQr">
                                 <frame key="frameInset" minX="191" minY="435" width="75" height="75"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -476,85 +568,204 @@
                                     <action selector="tacoButtonPressed:" destination="nEx-En-dux" eventType="touchUpInside" id="FQ4-1p-CAD"/>
                                 </connections>
                             </button>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="cheese.png" translatesAutoresizingMaskIntoConstraints="NO" id="FZS-iA-Elh">
-                                <frame key="frameInset" minX="67" minY="221" width="75" height="75"/>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="UE4-J1-3l0">
+                                <frame key="frameInset" minX="25" minY="127" width="75" height="75"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                            </imageView>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="avocado.png" translatesAutoresizingMaskIntoConstraints="NO" id="Kxi-oR-Jp4">
-                                <frame key="frameInset" minX="150" minY="221" width="75" height="75"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                            </imageView>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="rice.png" translatesAutoresizingMaskIntoConstraints="NO" id="f8G-7C-y3t">
-                                <frame key="frameInset" minX="233" minY="221" width="75" height="75"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                            </imageView>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="h2a-SP-wlM">
-                                <frame key="frameInset" minX="67" minY="113" width="75" height="75"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="Avocado">
+                                <state key="normal" title="Button">
                                     <color key="titleColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                                 </state>
                                 <connections>
-                                    <action selector="avocadoPressed:" destination="nEx-En-dux" eventType="touchUpInside" id="pxL-dO-0sq"/>
+                                    <action selector="callPressed:" destination="yd7-aL-8UP" eventType="touchUpInside" id="aZR-2z-coy"/>
                                 </connections>
                             </button>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="lemon.png" translatesAutoresizingMaskIntoConstraints="NO" id="JKo-8M-bTL">
-                                <frame key="frameInset" minX="149" minY="126" width="75" height="75"/>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="2hg-8M-wfu">
+                                <frame key="frameInset" minX="195" minY="126" width="75" height="75"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                            </imageView>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="popcorn.png" translatesAutoresizingMaskIntoConstraints="NO" id="TUz-HB-8sW">
-                                <frame key="frameInset" minX="67" minY="126" width="75" height="75"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                            </imageView>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="b3S-GY-bZ8">
-                                <frame key="frameInset" minX="150" minY="196" width="75" height="75"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="Cheese">
+                                <state key="normal" title="Button">
                                     <color key="titleColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                                 </state>
                                 <connections>
-                                    <action selector="cheeseButtonPressed:" destination="nEx-En-dux" eventType="touchUpInside" id="2pm-N5-7Nq"/>
+                                    <action selector="dogwalkPressed:" destination="yd7-aL-8UP" eventType="touchUpInside" id="Yan-f7-VGk"/>
                                 </connections>
                             </button>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="chicken.png" translatesAutoresizingMaskIntoConstraints="NO" id="bL7-Ay-Zhp">
-                                <frame key="frameInset" minX="233" minY="126" width="75" height="75"/>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="s91-yW-9mB">
+                                <frame key="frameInset" minX="278" minY="126" width="75" height="75"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                            </imageView>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="BEI-gr-bmh">
-                                <frame key="frameInset" minX="150" minY="226" width="75" height="75"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="Banana">
+                                <state key="normal" title="Button">
                                     <color key="titleColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                                 </state>
                                 <connections>
-                                    <action selector="banana:" destination="nEx-En-dux" eventType="touchUpInside" id="bm7-gL-xBU"/>
+                                    <action selector="electricPressed:" destination="yd7-aL-8UP" eventType="touchUpInside" id="2uh-J2-Vlm"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="lTx-jy-irW">
-                                <frame key="frameInset" minX="233" minY="226" width="75" height="75"/>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="zfl-LB-lue">
+                                <frame key="frameInset" minX="108" minY="126" width="75" height="75"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="Rice">
+                                <state key="normal" title="Button">
                                     <color key="titleColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                                 </state>
                                 <connections>
-                                    <action selector="riceButtonPressed:" destination="nEx-En-dux" eventType="touchUpInside" id="4mU-0a-usl"/>
+                                    <action selector="carPaymentPressed:" destination="yd7-aL-8UP" eventType="touchUpInside" id="3jD-gc-WRZ"/>
                                 </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="mMH-fq-Awm">
+                                <frame key="frameInset" minX="23" minY="209" width="75" height="75"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button">
+                                    <color key="titleColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="gasPressed:" destination="yd7-aL-8UP" eventType="touchUpInside" id="d1G-yE-HoT"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="PvP-4f-hYb">
+                                <frame key="frameInset" minX="110" minY="209" width="75" height="75"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button">
+                                    <color key="titleColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="healthinsurancePressed:" destination="yd7-aL-8UP" eventType="touchUpInside" id="URk-Oo-w7d"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="oxJ-UD-7R2">
+                                <frame key="frameInset" minX="193" minY="209" width="75" height="75"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button">
+                                    <color key="titleColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="housepaymentPressed:" destination="yd7-aL-8UP" eventType="touchUpInside" id="2JW-e8-Zfq"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="mQw-9m-Xz7">
+                                <frame key="frameInset" minX="276" minY="209" width="75" height="75"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button">
+                                    <color key="titleColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="internetPressed:" destination="yd7-aL-8UP" eventType="touchUpInside" id="fqt-LE-dMw"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Pet-Mo-TWQ">
+                                <frame key="frameInset" minX="23" minY="292" width="75" height="75"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button">
+                                    <color key="titleColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="mowlawnPressed:" destination="yd7-aL-8UP" eventType="touchUpInside" id="SRh-3k-ml7"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="R9j-V8-ZkI">
+                                <frame key="frameInset" minX="110" minY="292" width="75" height="75"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button">
+                                    <color key="titleColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="moneyPressed:" destination="yd7-aL-8UP" eventType="touchUpInside" id="5PR-dO-tca"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="NXo-Eh-3DA">
+                                <frame key="frameInset" minX="193" minY="292" width="75" height="75"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button">
+                                    <color key="titleColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="sendmoneyPressed:" destination="yd7-aL-8UP" eventType="touchUpInside" id="fi3-on-Lfq"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="OWa-vH-tbz">
+                                <frame key="frameInset" minX="276" minY="292" width="75" height="75"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button">
+                                    <color key="titleColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="paintPressed:" destination="yd7-aL-8UP" eventType="touchUpInside" id="w4a-kf-OFu"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="tnp-q2-wHn">
+                                <frame key="frameInset" minX="23" minY="379" width="75" height="75"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button">
+                                    <color key="titleColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="phonebillPressed:" destination="yd7-aL-8UP" eventType="touchUpInside" id="QkT-rC-gav"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="wtl-NN-rHB">
+                                <frame key="frameInset" minX="110" minY="379" width="75" height="75"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button">
+                                    <color key="titleColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="satellitePressed:" destination="yd7-aL-8UP" eventType="touchUpInside" id="IiI-rs-aDc"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Z5A-tl-zXc">
+                                <frame key="frameInset" minX="193" minY="379" width="75" height="75"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button">
+                                    <color key="titleColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="vacummPressed:" destination="yd7-aL-8UP" eventType="touchUpInside" id="exX-Of-KnW"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="hVz-HM-0CQ">
+                                <frame key="frameInset" minX="276" minY="379" width="75" height="75"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button">
+                                    <color key="titleColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="dishwashPressed:" destination="yd7-aL-8UP" eventType="touchUpInside" id="Vfu-WT-Wrx"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="VOe-X8-eUS">
+                                <frame key="frameInset" minY="611" width="375" height="56"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                                <fontDescription key="fontDescription" name="Chalkduster" family="Chalkduster" pointSize="16"/>
+                                <state key="normal" title="My To-Do Lists">
+                                    <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
                             </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
                     <simulatedNavigationBarMetrics key="simulatedTopBarMetrics" prompted="NO"/>
                     <nil key="simulatedBottomBarMetrics"/>
+                    <connections>
+                        <outlet property="callperson" destination="UE4-J1-3l0" id="Hzu-6M-oLV"/>
+                        <outlet property="carpayment" destination="zfl-LB-lue" id="KmJ-hi-hsd"/>
+                        <outlet property="dishwash" destination="hVz-HM-0CQ" id="5lp-wE-zOu"/>
+                        <outlet property="dogwalk" destination="2hg-8M-wfu" id="WCH-Bf-tkP"/>
+                        <outlet property="electric" destination="s91-yW-9mB" id="Wfb-Td-cWb"/>
+                        <outlet property="gas" destination="mMH-fq-Awm" id="Nbz-vl-U9D"/>
+                        <outlet property="healthinsurance" destination="PvP-4f-hYb" id="lFj-rM-rUL"/>
+                        <outlet property="homepayment" destination="oxJ-UD-7R2" id="0HC-Wn-ttN"/>
+                        <outlet property="houseworkTextField" destination="JmH-I4-lrV" id="Xk5-nQ-k5C"/>
+                        <outlet property="internet" destination="mQw-9m-Xz7" id="ZbK-DM-QPt"/>
+                        <outlet property="lawnmower" destination="Pet-Mo-TWQ" id="e1d-Af-ZWi"/>
+                        <outlet property="money" destination="R9j-V8-ZkI" id="14b-az-WFI"/>
+                        <outlet property="paint" destination="OWa-vH-tbz" id="kvg-Wj-YGD"/>
+                        <outlet property="phonebill" destination="tnp-q2-wHn" id="oMd-gN-AlR"/>
+                        <outlet property="satellite" destination="wtl-NN-rHB" id="uq9-KV-htw"/>
+                        <outlet property="saveButton" destination="xPI-UY-QGL" id="wbd-N6-2N9"/>
+                        <outlet property="sendmoney" destination="NXo-Eh-3DA" id="aAp-Rf-qEi"/>
+                        <outlet property="vacumm" destination="Z5A-tl-zXc" id="AY8-0j-gxl"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="SnD-Vb-GFC" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2623" y="-984"/>
+            <point key="canvasLocation" x="2621.5999999999999" y="-984.55772113943033"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="nXA-Pp-J4z">
@@ -583,16 +794,32 @@
         <image name="banana.png" width="700" height="700"/>
         <image name="beef.png" width="700" height="700"/>
         <image name="bread.png" width="700" height="700"/>
+        <image name="callperson.png" width="700" height="700"/>
+        <image name="car_payment.png" width="700" height="700"/>
         <image name="cheese.png" width="700" height="700"/>
         <image name="chicken.png" width="700" height="700"/>
         <image name="corn.png" width="700" height="700"/>
+        <image name="dog_walk.png" width="700" height="700"/>
+        <image name="electric.png" width="700" height="700"/>
         <image name="fish.png" width="700" height="700"/>
+        <image name="gas_bill.png" width="700" height="700"/>
+        <image name="healthinsurance.png" width="700" height="700"/>
+        <image name="homepayment.png" width="700" height="700"/>
+        <image name="internet.png" width="700" height="700"/>
+        <image name="lawnmower.png" width="700" height="700"/>
         <image name="lemon.png" width="700" height="700"/>
+        <image name="money.png" width="700" height="700"/>
+        <image name="money_transfer.png" width="700" height="700"/>
+        <image name="paint.png" width="700" height="700"/>
         <image name="pepper.png" width="700" height="700"/>
+        <image name="phonebill.png" width="700" height="700"/>
         <image name="popcorn.png" width="700" height="700"/>
         <image name="rice.png" width="700" height="700"/>
+        <image name="satellite.png" width="700" height="700"/>
         <image name="strawberry.png" width="700" height="700"/>
         <image name="taco.png" width="700" height="700"/>
+        <image name="vacumm.png" width="700" height="700"/>
+        <image name="washdishes.png" width="700" height="700"/>
         <image name="watermelon.png" width="700" height="700"/>
         <image name="yellow_lined_paper.jpg" width="752" height="1063"/>
     </resources>
