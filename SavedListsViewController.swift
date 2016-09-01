@@ -41,12 +41,24 @@ extension SavedListsViewController {
         let listItem = mySavedLists[row]
         
         cell.textLabel?.text = listItem as? String
-        cell.backgroundColor = UIColor.clear
+        
         
         return cell
     }
     
+    
+    override func tableView(_ tableView: UITableView, commit editingStyle: UITableViewCellEditingStyle, forRowAt indexPath: IndexPath) {
+        if editingStyle == .delete {
+            mySavedLists.remove(at: indexPath.row)
+            tableView.deleteRows(at: [indexPath], with: UITableViewRowAnimation.fade)
+            
+        } else if editingStyle == .insert {
+        }
+        
+    }
+    
 }
+
 
 
 
