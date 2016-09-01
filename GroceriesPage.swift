@@ -28,6 +28,22 @@ class GroceriesPage: UIViewController, UITextFieldDelegate {
     }
     
     @IBOutlet weak var appleButtonOutput: UIButton!
+    @IBOutlet weak var avocado: UIButton!
+    @IBOutlet weak var banana: UIButton!
+    @IBOutlet weak var beef: UIButton!
+    @IBOutlet weak var bread: UIButton!
+    @IBOutlet weak var cheese: UIButton!
+    @IBOutlet weak var chicken: UIButton!
+    @IBOutlet weak var corn: UIButton!
+    @IBOutlet weak var fish: UIButton!
+    @IBOutlet weak var lemon: UIButton!
+    @IBOutlet weak var pepper: UIButton!
+    @IBOutlet weak var popcorn: UIButton!
+    @IBOutlet weak var rice: UIButton!
+    @IBOutlet weak var strawberry: UIButton!
+    @IBOutlet weak var taco: UIButton!
+    @IBOutlet weak var watermelon: UIButton!
+    
     
     
     @IBAction func appleButtonPressed(_ sender: AnyObject) {
@@ -35,13 +51,12 @@ class GroceriesPage: UIViewController, UITextFieldDelegate {
     }
     
     func sendToTextField(food: String) {
-        var currentText = groceriesTextField.text
+        let currentText = groceriesTextField.text
         
         if let currentText = currentText {
             groceriesTextField.text = currentText + food
         }
     }
-    
     @IBAction func avocadoPressed(_ sender: AnyObject) {
         sendToTextField(food: ", avocado")
     }
