@@ -41,6 +41,7 @@ extension SavedListsViewController {
         let listItem = mySavedLists[row]
         
         cell.textLabel?.text = listItem as? String
+        cell.backgroundColor = UIColor.clear
         
         return cell
     }
