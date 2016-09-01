@@ -136,17 +136,29 @@
                             <button opaque="NO" contentMode="scaleAspectFit" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="GD4-b8-aOY">
                                 <frame key="frameInset" minX="275" minY="460" width="75" height="75"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="Watermelon"/>
+                                <state key="normal" title="Watermelon">
+                                    <color key="titleColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="watermelonButtonPressed:" destination="C1Z-eF-ZfE" eventType="touchUpInside" id="O9r-pA-pu8"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="qsW-c8-n7o">
                                 <frame key="frameInset" minX="26" minY="460" width="75" height="75"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="Rice"/>
+                                <state key="normal" title="Rice">
+                                    <color key="titleColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="riceButtonPressed:" destination="C1Z-eF-ZfE" eventType="touchUpInside" id="M2N-gi-UEC"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="DiK-g5-Mu4">
                                 <frame key="frameInset" minX="275" minY="138" width="75" height="75"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="Beef"/>
+                                <state key="normal" title="Beef">
+                                    <color key="titleColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                </state>
                                 <connections>
                                     <action selector="beefButtonPressed:" destination="C1Z-eF-ZfE" eventType="touchUpInside" id="eeL-Mu-CIW"/>
                                 </connections>
@@ -154,7 +166,9 @@
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ssg-WT-WCh">
                                 <frame key="frameInset" minX="26" minY="138" width="75" height="75"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="Apple"/>
+                                <state key="normal" title="Apple">
+                                    <color key="titleColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                </state>
                                 <connections>
                                     <action selector="appleButtonPressed:" destination="C1Z-eF-ZfE" eventType="touchUpInside" id="dK3-1l-4YF"/>
                                 </connections>
@@ -162,12 +176,19 @@
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Jfj-RR-e9z">
                                 <frame key="frameInset" minX="109" minY="460" width="75" height="75"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="Strawberry"/>
+                                <state key="normal" title="Strawberry">
+                                    <color key="titleColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="strawberryButtonPressed:" destination="C1Z-eF-ZfE" eventType="touchUpInside" id="It1-xb-zva"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="CS3-gW-dSe">
                                 <frame key="frameInset" minX="26" minY="358" width="75" height="75"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="Fish"/>
+                                <state key="normal" title="Fish">
+                                    <color key="titleColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                </state>
                                 <connections>
                                     <action selector="fishButtonPressed:" destination="C1Z-eF-ZfE" eventType="touchUpInside" id="z1Q-3g-FJW"/>
                                 </connections>
@@ -175,12 +196,19 @@
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="W10-VA-deb">
                                 <frame key="frameInset" minX="192" minY="460" width="75" height="75"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="Taco"/>
+                                <state key="normal" title="Taco">
+                                    <color key="titleColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="tacoButtonPressed:" destination="C1Z-eF-ZfE" eventType="touchUpInside" id="Wbu-BW-BvS"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="cEM-ND-4NB">
                                 <frame key="frameInset" minX="192" minY="138" width="75" height="75"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="Banana"/>
+                                <state key="normal" title="Banana">
+                                    <color key="titleColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                </state>
                                 <connections>
                                     <action selector="banana:" destination="C1Z-eF-ZfE" eventType="touchUpInside" id="ahV-57-f30"/>
                                 </connections>
@@ -188,7 +216,9 @@
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="1kD-nn-qS7">
                                 <frame key="frameInset" minX="109" minY="358" width="75" height="75"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="Lemon"/>
+                                <state key="normal" title="Lemon">
+                                    <color key="titleColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                </state>
                                 <connections>
                                     <action selector="lemonButtonPressed:" destination="C1Z-eF-ZfE" eventType="touchUpInside" id="2SV-c4-IU1"/>
                                 </connections>
@@ -196,7 +226,9 @@
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="CIm-he-HsH">
                                 <frame key="frameInset" minX="192" minY="358" width="75" height="75"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="Pepper"/>
+                                <state key="normal" title="Pepper">
+                                    <color key="titleColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                </state>
                                 <connections>
                                     <action selector="pepperButtonPressed:" destination="C1Z-eF-ZfE" eventType="touchUpInside" id="pQs-4R-79F"/>
                                 </connections>
@@ -204,12 +236,19 @@
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="0X5-pc-7tH">
                                 <frame key="frameInset" minX="275" minY="358" width="75" height="75"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="Popcorn"/>
+                                <state key="normal" title="Popcorn">
+                                    <color key="titleColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="popcornButtonPressed:" destination="C1Z-eF-ZfE" eventType="touchUpInside" id="Erp-aI-C8I"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="XFr-DZ-t3J">
                                 <frame key="frameInset" minX="109" minY="246" width="75" height="75"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="Cheese"/>
+                                <state key="normal" title="Cheese">
+                                    <color key="titleColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                </state>
                                 <connections>
                                     <action selector="cheeseButtonPressed:" destination="C1Z-eF-ZfE" eventType="touchUpInside" id="D5r-Pb-Jpf"/>
                                 </connections>
@@ -217,7 +256,9 @@
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="j5d-J5-870">
                                 <frame key="frameInset" minX="109" minY="138" width="75" height="75"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="Avocado"/>
+                                <state key="normal" title="Avocado">
+                                    <color key="titleColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                </state>
                                 <connections>
                                     <action selector="avocadoPressed:" destination="C1Z-eF-ZfE" eventType="touchUpInside" id="mDI-7j-7Fp"/>
                                 </connections>
@@ -225,7 +266,9 @@
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="0jf-qV-G1f">
                                 <frame key="frameInset" minX="192" minY="246" width="75" height="75"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="Chicken"/>
+                                <state key="normal" title="Chicken">
+                                    <color key="titleColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                </state>
                                 <connections>
                                     <action selector="chickenButtonPressed:" destination="C1Z-eF-ZfE" eventType="touchUpInside" id="GJd-fB-jBF"/>
                                 </connections>
@@ -242,7 +285,9 @@
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="0Of-BR-7Q4">
                                 <frame key="frameInset" minX="26" minY="246" width="75" height="75"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="Bread"/>
+                                <state key="normal" title="Bread">
+                                    <color key="titleColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                </state>
                                 <connections>
                                     <action selector="breadButtonPressed:" destination="C1Z-eF-ZfE" eventType="touchUpInside" id="ZcQ-dz-pPS"/>
                                 </connections>
@@ -250,7 +295,9 @@
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="iwP-xZ-rjV">
                                 <frame key="frameInset" minX="275" minY="246" width="75" height="75"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="Corn"/>
+                                <state key="normal" title="Corn">
+                                    <color key="titleColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                </state>
                                 <connections>
                                     <action selector="cornButtonPressed:" destination="C1Z-eF-ZfE" eventType="touchUpInside" id="GCG-bZ-Fag"/>
                                 </connections>

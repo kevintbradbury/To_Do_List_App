@@ -71,7 +71,22 @@ class GroceriesPage: UIViewController, UITextFieldDelegate {
         sendToTextField(food: ", lemon")
     }
     @IBAction func pepperButtonPressed(_ sender: AnyObject) {
-        
+        sendToTextField(food: ", pepper")
+    }
+    @IBAction func popcornButtonPressed(_ sender: AnyObject) {
+        sendToTextField(food: ", popcorn")
+    }
+    @IBAction func riceButtonPressed(_ sender: AnyObject) {
+        sendToTextField(food: ", rice")
+    }
+    @IBAction func strawberryButtonPressed(_ sender: AnyObject) {
+        sendToTextField(food: ", strawberry")
+    }
+    @IBAction func tacoButtonPressed(_ sender: AnyObject) {
+        sendToTextField(food: ", taco")
+    }
+    @IBAction func watermelonButtonPressed(_ sender: AnyObject) {
+        sendToTextField(food: ", watermelon")
     }
     
     
