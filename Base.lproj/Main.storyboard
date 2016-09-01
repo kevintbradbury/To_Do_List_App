@@ -147,6 +147,9 @@
                                 <frame key="frameInset" minX="275" minY="138" width="75" height="75"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Beef"/>
+                                <connections>
+                                    <action selector="beefButtonPressed:" destination="C1Z-eF-ZfE" eventType="touchUpInside" id="eeL-Mu-CIW"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ssg-WT-WCh">
                                 <frame key="frameInset" minX="26" minY="138" width="75" height="75"/>
@@ -165,6 +168,9 @@
                                 <frame key="frameInset" minX="26" minY="358" width="75" height="75"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Fish"/>
+                                <connections>
+                                    <action selector="fishButtonPressed:" destination="C1Z-eF-ZfE" eventType="touchUpInside" id="z1Q-3g-FJW"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="W10-VA-deb">
                                 <frame key="frameInset" minX="192" minY="460" width="75" height="75"/>
@@ -175,16 +181,25 @@
                                 <frame key="frameInset" minX="192" minY="138" width="75" height="75"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Banana"/>
+                                <connections>
+                                    <action selector="banana:" destination="C1Z-eF-ZfE" eventType="touchUpInside" id="ahV-57-f30"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="1kD-nn-qS7">
                                 <frame key="frameInset" minX="109" minY="358" width="75" height="75"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Lemon"/>
+                                <connections>
+                                    <action selector="lemonButtonPressed:" destination="C1Z-eF-ZfE" eventType="touchUpInside" id="2SV-c4-IU1"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="CIm-he-HsH">
                                 <frame key="frameInset" minX="192" minY="358" width="75" height="75"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Pepper"/>
+                                <connections>
+                                    <action selector="pepperButtonPressed:" destination="C1Z-eF-ZfE" eventType="touchUpInside" id="pQs-4R-79F"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="0X5-pc-7tH">
                                 <frame key="frameInset" minX="275" minY="358" width="75" height="75"/>
@@ -195,16 +210,25 @@
                                 <frame key="frameInset" minX="109" minY="246" width="75" height="75"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Cheese"/>
+                                <connections>
+                                    <action selector="cheeseButtonPressed:" destination="C1Z-eF-ZfE" eventType="touchUpInside" id="D5r-Pb-Jpf"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="j5d-J5-870">
                                 <frame key="frameInset" minX="109" minY="138" width="75" height="75"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Avocado"/>
+                                <connections>
+                                    <action selector="avocadoPressed:" destination="C1Z-eF-ZfE" eventType="touchUpInside" id="mDI-7j-7Fp"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="0jf-qV-G1f">
                                 <frame key="frameInset" minX="192" minY="246" width="75" height="75"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Chicken"/>
+                                <connections>
+                                    <action selector="chickenButtonPressed:" destination="C1Z-eF-ZfE" eventType="touchUpInside" id="GJd-fB-jBF"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="q7V-hM-BdJ">
                                 <frame key="frameInset" minX="1" minY="554" width="374.99999999999955" height="69.000000000000114"/>
@@ -219,11 +243,17 @@
                                 <frame key="frameInset" minX="26" minY="246" width="75" height="75"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Bread"/>
+                                <connections>
+                                    <action selector="breadButtonPressed:" destination="C1Z-eF-ZfE" eventType="touchUpInside" id="ZcQ-dz-pPS"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="iwP-xZ-rjV">
                                 <frame key="frameInset" minX="275" minY="246" width="75" height="75"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Corn"/>
+                                <connections>
+                                    <action selector="cornButtonPressed:" destination="C1Z-eF-ZfE" eventType="touchUpInside" id="GCG-bZ-Fag"/>
+                                </connections>
                             </button>
                             <textField clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Type To-Do List here" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="8Zu-qu-seq">
                                 <frame key="frameInset" minY="81" width="375" height="30"/>
@@ -247,6 +277,7 @@
                     <connections>
                         <outlet property="appleButtonOutput" destination="ssg-WT-WCh" id="lUU-xl-shc"/>
                         <outlet property="groceriesTextField" destination="8Zu-qu-seq" id="YdM-gf-it5"/>
+                        <outlet property="lemonButtonPressed" destination="1kD-nn-qS7" id="bKJ-sG-Xdv"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="DJ8-1Y-4mI" userLabel="First Responder" sceneMemberID="firstResponder"/>
