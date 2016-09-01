@@ -27,6 +27,24 @@ class GroceriesPage: UIViewController, UITextFieldDelegate {
         mySavedLists.append(words)
     }
     
+    @IBOutlet weak var appleButtonOutput: UIButton!
+    
+    
+    @IBAction func appleButtonPressed(_ sender: AnyObject) {
+        sendToTextField()
+    }
+    
+    func sendToTextField() {
+        var currentText = groceriesTextField.text
+        
+        if let currentText = currentText {
+            groceriesTextField.text = currentText + ", apple"
+        }
+    }
+    
+    
+    
+    
     override func viewDidLoad() {
         super.viewDidLoad()
     }
