@@ -9,10 +9,15 @@
 import Foundation
 
 struct SavedLists {
-    var name: String
-    var body: String
+    let name: String
+    let body: String
+    
+    
 }
 
-var mySavedLists = ["Pickup dog food"]
+var mySavedLists = ["Sample"]
+
+
+
 
 

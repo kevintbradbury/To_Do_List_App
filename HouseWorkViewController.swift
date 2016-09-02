@@ -97,7 +97,7 @@ class HouseWorkViewController: UIViewController {
         sendToTextField(chore: " satellite")
     }
     @IBAction func vacummPressed(_ sender: AnyObject) {
-        sendToTextField(chore: " vacumm")
+        sendToTextField(chore: " vacuum")
     }
     @IBAction func dishwashPressed(_ sender: AnyObject) {
         sendToTextField(chore: " wash dishes")

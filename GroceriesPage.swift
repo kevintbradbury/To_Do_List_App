@@ -58,50 +58,50 @@ class GroceriesPage: UIViewController, UITextFieldDelegate {
         }
     }
     @IBAction func avocadoPressed(_ sender: AnyObject) {
-        sendToTextField(food: ", avocado")
+        sendToTextField(food: " avocado")
     }
     
     @IBAction func banana(_ sender: AnyObject) {
-        sendToTextField(food: ", banana")
+        sendToTextField(food: " banana")
     }
     @IBAction func beefButtonPressed(_ sender: AnyObject) {
-        sendToTextField(food: ", beef")
+        sendToTextField(food: " beef")
     }
     @IBAction func breadButtonPressed(_ sender: AnyObject) {
-        sendToTextField(food: ", bread")
+        sendToTextField(food: " bread")
     }
     @IBAction func cheeseButtonPressed(_ sender: AnyObject) {
-        sendToTextField(food: ", cheese")
+        sendToTextField(food: " cheese")
     }
     @IBAction func chickenButtonPressed(_ sender: AnyObject) {
-        sendToTextField(food: ", chicken")
+        sendToTextField(food: " chicken")
     }
     @IBAction func cornButtonPressed(_ sender: AnyObject) {
-        sendToTextField(food: ", corn")
+        sendToTextField(food: " corn")
     }
     @IBAction func fishButtonPressed(_ sender: AnyObject) {
-        sendToTextField(food: ", fish")
+        sendToTextField(food: " fish")
     }
     @IBAction func lemonButtonPressed(_ sender: AnyObject) {
-        sendToTextField(food: ", lemon")
+        sendToTextField(food: " lemon")
     }
     @IBAction func pepperButtonPressed(_ sender: AnyObject) {
-        sendToTextField(food: ", pepper")
+        sendToTextField(food: " pepper")
     }
     @IBAction func popcornButtonPressed(_ sender: AnyObject) {
-        sendToTextField(food: ", popcorn")
+        sendToTextField(food: " popcorn")
     }
     @IBAction func riceButtonPressed(_ sender: AnyObject) {
-        sendToTextField(food: ", rice")
+        sendToTextField(food: " rice")
     }
     @IBAction func strawberryButtonPressed(_ sender: AnyObject) {
-        sendToTextField(food: ", strawberry")
+        sendToTextField(food: " strawberry")
     }
     @IBAction func tacoButtonPressed(_ sender: AnyObject) {
-        sendToTextField(food: ", taco")
+        sendToTextField(food: " taco")
     }
     @IBAction func watermelonButtonPressed(_ sender: AnyObject) {
-        sendToTextField(food: ", watermelon")
+        sendToTextField(food: " watermelon")
     }
     
     

@@ -11,6 +11,7 @@ import UIKit
 
 class SavedListsViewController: UITableViewController {
     
+    var selectedIndex: Int?
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -42,7 +43,6 @@ extension SavedListsViewController {
         
         cell.textLabel?.text = listItem as? String
         
-        
         return cell
     }
     
@@ -56,7 +56,11 @@ extension SavedListsViewController {
         }
         
     }
+ 
+  
     
+ 
+
 }
 
 
