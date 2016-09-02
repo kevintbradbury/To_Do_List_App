@@ -15,7 +15,8 @@ struct SavedLists {
     
 }
 
-var mySavedLists = ["Sample"]
+var mySavedLists = [""]
+
 
 
 

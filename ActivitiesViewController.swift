@@ -6,7 +6,6 @@
 //  Copyright © 2016 K. All rights reserved.
 //
 
-import Foundation
 import UIKit
 
 class ActivitesViewController: UIViewController {
@@ -26,6 +25,7 @@ class ActivitesViewController: UIViewController {
     
     @IBOutlet weak var activitiesTextField: UITextField!
     
+    @IBOutlet weak var myTo_DoListsButton: UIButton!
     
     func sendToArray() {
         guard let text = activitiesTextField?.text,
@@ -45,6 +45,7 @@ class ActivitesViewController: UIViewController {
         }
     }
     @IBOutlet weak var saveButton: UIButton!
+    
     @IBAction func saveButtonPressed(_ sender: AnyObject) {
         sendToArray()
     }

@@ -8,8 +8,14 @@
 
 import UIKit
 
-class ViewController: UIViewController {
+class MyViewController: UIViewController {
 
+    @IBOutlet weak var groceriesButton: UIButton!
+    @IBOutlet weak var houseWorkButton: UIButton!
+    @IBOutlet weak var activitiesButton: UIButton!
+    @IBOutlet weak var writeNovelButton: UIButton!
+    @IBOutlet weak var myTo_DoListsButton: UIButton!
+    
     
     override func viewDidLoad() {
         super.viewDidLoad()

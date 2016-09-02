@@ -6,7 +6,6 @@
 //  Copyright © 2016 K. All rights reserved.
 //
 
-import Foundation
 import UIKit
 
 class GroceriesPage: UIViewController, UITextFieldDelegate {
@@ -26,6 +25,9 @@ class GroceriesPage: UIViewController, UITextFieldDelegate {
         }
         mySavedLists.append(words)
     }
+    
+    @IBOutlet weak var myTo_DoListsButton: UIButton!
+    
     
     @IBOutlet weak var appleButtonOutput: UIButton!
     @IBOutlet weak var avocado: UIButton!
@@ -57,6 +59,7 @@ class GroceriesPage: UIViewController, UITextFieldDelegate {
             groceriesTextField.text = currentText + food
         }
     }
+    
     @IBAction func avocadoPressed(_ sender: AnyObject) {
         sendToTextField(food: " avocado")
     }

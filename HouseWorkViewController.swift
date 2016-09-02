@@ -6,7 +6,6 @@
 //  Copyright © 2016 K. All rights reserved.
 //
 
-import Foundation
 import UIKit
 
 class HouseWorkViewController: UIViewController {
@@ -18,6 +17,7 @@ class HouseWorkViewController: UIViewController {
     @IBAction func saveButtonPressed(_ sender: AnyObject) {
         sendToArray()
     }
+    
     func sendToArray() {
         guard let text = houseworkTextField?.text,
             !text.isEmpty,
@@ -35,6 +35,7 @@ class HouseWorkViewController: UIViewController {
             houseworkTextField.text = currentText + chore
         }
     }
+    @IBOutlet weak var myTo_DoListsButton: UIButton!
 
     @IBOutlet weak var callperson: UIButton!
     @IBOutlet weak var carpayment: UIButton!
