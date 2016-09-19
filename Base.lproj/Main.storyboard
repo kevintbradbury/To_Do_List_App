@@ -96,6 +96,7 @@
                                 <state key="normal" title="Save"/>
                                 <connections>
                                     <action selector="saveButtonPressed:" destination="nEx-En-dux" eventType="touchUpInside" id="zsY-K2-oHQ"/>
+                                    <segue destination="ASb-w9-K3z" kind="show" id="xSu-Om-R5c"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="h6n-9X-Mi6">
@@ -545,6 +546,7 @@
                                 <state key="normal" title="Save"/>
                                 <connections>
                                     <action selector="saveButtonPressed:" destination="yd7-aL-8UP" eventType="touchUpInside" id="Pcd-wO-4wo"/>
+                                    <segue destination="ASb-w9-K3z" kind="show" id="YeK-AS-z15"/>
                                 </connections>
                             </button>
                             <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Type your list here" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="8sz-Ue-LvM">
@@ -860,6 +862,7 @@
                                 <state key="normal" title="Save"/>
                                 <connections>
                                     <action selector="saveButtonPressed:" destination="RQC-XY-LWg" eventType="touchUpInside" id="Ghm-SP-g0I"/>
+                                    <segue destination="ASb-w9-K3z" kind="show" id="NyB-Jp-e2O"/>
                                 </connections>
                             </button>
                             <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Type your list here" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="nHV-3B-qr8">
@@ -1095,7 +1098,7 @@
                                     <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 </state>
                                 <connections>
-                                    <segue destination="ASb-w9-K3z" kind="show" id="PoY-iR-5lH"/>
+                                    <segue destination="ASb-w9-K3z" kind="show" id="hmF-7J-rVa"/>
                                 </connections>
                             </button>
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" keyboardDismissMode="onDrag" text="Begin your novel here!" translatesAutoresizingMaskIntoConstraints="NO" id="l5S-cd-Lsu">
@@ -1105,6 +1108,10 @@
                                 <fontDescription key="fontDescription" name="Chalkduster" family="Chalkduster" pointSize="16"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="allCharacters" enablesReturnKeyAutomatically="YES"/>
                             </textView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="get_button2.png" translatesAutoresizingMaskIntoConstraints="NO" id="TWw-cb-MZK">
+                                <frame key="frameInset" minX="293" minY="71" width="82" height="53"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="2v8-DC-Uuq">
                                 <frame key="frameInset" minX="293" minY="72" width="82" height="52"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -1112,12 +1119,9 @@
                                 <state key="normal" title="Save"/>
                                 <connections>
                                     <action selector="saveButtonPressed:" destination="kCN-Y4-KBl" eventType="touchUpInside" id="SFe-90-gen"/>
+                                    <segue destination="ASb-w9-K3z" kind="show" id="aRk-jy-8l9"/>
                                 </connections>
                             </button>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="get_button2.png" translatesAutoresizingMaskIntoConstraints="NO" id="TWw-cb-MZK">
-                                <frame key="frameInset" minX="293" minY="71" width="82" height="53"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                            </imageView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
@@ -1201,6 +1205,6 @@
         <image name="yellow_lined_paper.jpg" width="752" height="1063"/>
     </resources>
     <inferredMetricsTieBreakers>
-        <segue reference="PoY-iR-5lH"/>
+        <segue reference="xSu-Om-R5c"/>
     </inferredMetricsTieBreakers>
 </document>
